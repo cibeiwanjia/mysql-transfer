@@ -30,3 +30,27 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# ===== logs =====
+*.log
+log/
+logs/
+*/log/
+*/logs/
+
+# ===== local runtime data =====
+data/
+tmp/
+runtime/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== IDE =====
+.idea/
+.vscode/
+
+# ===== build =====
+bin/
+dist/
